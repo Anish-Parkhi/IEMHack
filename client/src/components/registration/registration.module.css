@@ -1,0 +1,51 @@
+.registrationContainer {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border: 1rem;
+  background-color: azure;
+}
+
+.middleContainer {
+  padding: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+}
+
+.alreadyRegisteredContainer{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.patientImage {
+  width: 60%;
+  border: 2px solid #bebebe;
+  /* padding: 0.3rem; */
+  background-color: #efefef;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.doctorImage {
+  width: 60%;
+  border: 2px solid #bebebe;
+  /* padding: 0.3rem; */
+  background-color: #efefef;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.ImageWrapper :hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.text{
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+

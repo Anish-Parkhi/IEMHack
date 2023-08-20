@@ -1,0 +1,85 @@
+.PatientRegistrationContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+}
+.ImageContainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 28%;
+  background-color: #988abd;
+  color: white;
+}
+.appointMents {
+  font-weight: 600;
+  font-size: 2.3rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  letter-spacing: 0.1rem;
+}
+.heartLogo {
+  width: 10%;
+  padding: 1rem;
+}
+.doctorPatientImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+.formContainer {
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+  padding: 2rem;
+  text-align: left;
+}
+
+.formHeader {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.formName {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  margin-bottom: 1rem;
+}
+.emailContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+
+.medicalCondition {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  gap: 9%;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  gap: 15%;
+}
+.adderessContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    gap: 15%;
+}
+.pinCodeContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    gap: 15%;
+}
